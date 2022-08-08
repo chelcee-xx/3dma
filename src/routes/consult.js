@@ -26,10 +26,10 @@ function Consult() {
             </div>
           </section>
           <section>
-          <h3 className="text-center">what makes us stand out</h3>
-          <div>
-            <img src={stand}></img>
-          </div>
+            <h3 className="text-center">what makes us stand out</h3>
+            <div>
+              <img src={stand}></img>
+            </div>
           </section>
           <Reviews />
           <Footer />

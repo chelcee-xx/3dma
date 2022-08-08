@@ -14,6 +14,9 @@ import Consult from './routes/consult';
 import Outsource from './routes/outsource';
 import Contact from './routes/contact';
 import Services from './routes/services';
+import Policy from './routes/policy';
+import Blog from './routes/blog';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -28,6 +31,8 @@ root.render(
         <Route path='outsourcing' element={<Outsource />}/>
         <Route path='contact' element={<Contact />}/>
         <Route path='services' element={<Services />}/>
+        <Route path='policy' element={<Policy />}/>
+        <Route path='blog' element={<Blog />}/>
         <Route
         index
         element={<App/>}

@@ -32,16 +32,36 @@ h3 {
   line-height: 44px;
 }
 
+a{
+  text-decoration: none;
+  color: initial;
+}
+
 #files {
   visibility: hidden;
   /* padding: 70px; */
 }
 
-.wrapper .area {
+.wrappe {
   /* padding-top: 17px; */
   height: 11px;
 }
 
+.area{
+  height: 111px;
+}
+
+#blog p{
+  color: initial;
+}
+
+#blog .container{
+  padding: 20px 30px;
+}
+
+#con-info .who{
+ align-items: unset;
+}
 
 h5,
 .line {
@@ -51,6 +71,8 @@ h5,
   text-underline-offset: 8px;
   text-decoration-color: #FF9800;
 }
+
+
 
 .line {
   text-transform: capitalize;
@@ -115,8 +137,16 @@ footer {
 }
 
 .nav-link {
-  color: #F9F9F9;
+  color: #918c8c;
+
 }
+
+.nav-link:hover{
+  color: #FF9800;
+  
+}
+
+
 
 #heading {
   position: relative;
@@ -331,17 +361,36 @@ input[type='submit'] {
 
 }
 
+
 .container1 {
   margin-bottom: 20px;
 }
 
+.fa-youtube:hover{
+  color: red;
+}
 
+#reviews h3{
+  width: initial;
+}
+.fa-star{
+  color: #FF9800;
+}
 
 #reviews .container {
   background-color: white;
   padding: 0;
   border-radius: 16px;
 
+}
+
+.latest{
+  background-color: #EBEBEB;
+  padding: 50px 12px;
+}
+
+.list-group{
+  margin: 20px 0;
 }
 
 .card {
@@ -358,7 +407,7 @@ input[type='submit'] {
 .second,
 .third {
   margin-left: 20px;
-  box-shadow: 0px 8px 22px -6px #18274b1f, 0px 14px 64px -4px rgba(24, 39, 75, 0.12);
+  box-shadow: 0px 8px 22px -6px #18274b1f, 0px 14px 64px -4px #18274b1f;
 }
 
 /* @media only screen and (max-width: 600px) {
@@ -612,7 +661,7 @@ textarea {
 }
 
 #news .card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px 0 #00000033;
   height: 580px;
 }
 

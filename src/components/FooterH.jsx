@@ -1,6 +1,7 @@
 import React from "react";
 import news from "../img/footer_bg.png";
 import logo from "../img/logo.svg";
+import { Link } from "react-router-dom";
 
 function FooterH() {
   return (
@@ -21,37 +22,39 @@ function FooterH() {
             Fax: (216) 966 1023
           </h5>
         </div>
-        <div className="col-lg-3 my-5">
-          <ul>
-            <li>links</li>
-            <li>About</li>
-            <li>Training</li>
-            <li>Consulting &amp; Advisory</li>
-            <li>Recruitment</li>
-            <li>Outsourcing</li>
-          </ul>
-        </div>
-        <div className="col-lg-3  my-5">
-          <ul>
-            <li>Support</li>
-            <li>IT Blog</li>
-            <li>Contact Us</li>
-            <li>Privacy Policy</li>
-          </ul>
-        </div>
-        <div className="contact col-lg-3  my-5">
-          <h5>Follow us</h5>
-          <div className="icons">
-            <a href><i className="fa fa-phone" /></a>
-            <a href><i className="fa-brands fa-facebook-f" /></a>
-            <a href><i className="fa-brands fa-twitter" /></a>
-            <a href><i className="fa-brands fa-instagram" /></a>
+          <div className="col-lg-3 my-5">
+            <ul>
+              <li><h5>links</h5></li>
+              <Link to="/about"><li>About</li></Link>
+              <Link to="/training"><li>Training</li></Link>
+              <Link to="/consult"><li>Consulting &amp; Advisory</li></Link>
+              <Link to="/recruitment"><li>Recruitment</li></Link>
+              <Link to="/outsourcing"><li>Outsourcing</li></Link>
+            </ul>
           </div>
+          <div className="col-lg-3  my-5">
+            <ul>
+              <li><h5>Support</h5></li>
+              <Link to="/blog"><li>IT Blog</li></Link>
+              <Link to="/contact"><li>Contact Us</li></Link>
+              <Link to="/policy"><li>Privacy Policy</li></Link>
+            </ul>
+          </div>
+          <div className="contact col-lg-3  my-5">
+            <h5>Follow us</h5>
+            <div className="icons">
+              
+              <a href=""><i class="fa-brands fa-linkedin"></i></a>
+              <a href=""><i class="fa-brands fa-facebook"></i></a>
+              <a href=""><i className="fa-brands fa-twitter" /></a>
+              <a href=""><i class="fa-brands fa-youtube"></i></a>
+            </div>
+          </div>
+          <p className="text-center">Copyright (C)
+            3DMA. All rights reserved
+          </p>
         </div>
-        <p className="text-center">Copyright (C)
-          3DMA. All rights reserved
-        </p>
-      </div>
+        
     </footer>
   )
 }
