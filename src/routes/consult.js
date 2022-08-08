@@ -3,7 +3,7 @@ import NavList from "./NavList";
 import stand from "../img/stand_ou.svg";
 import Reviews from "../components/reviews";
 import Footer from "../components/Footer";
-import bg from "../img/consul_bg.png"
+import bg from "../img/consul_bg.png";import React from "react";
 
 function Consult() {
   return (

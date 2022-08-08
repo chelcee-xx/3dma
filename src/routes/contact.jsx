@@ -1,7 +1,7 @@
 import NavList from "./NavList"
 import contact from "../img/contact_img.png"
 import Form from "../components/form"
-import Footer from "../components/Footer"
+import Footer from "../components/Footer";import React from "react";
 
 function Contact(){
     return(

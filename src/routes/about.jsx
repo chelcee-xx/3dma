@@ -3,7 +3,7 @@ import w from "../img/why_bg.jpg";
 import glass from "../img/glasses.png";
 import bus from "../img/bus_men.png";
 import Footer from "../components/Footer";
-import Why from "../components/why";
+import Why from "../components/why";import React from "react";
 
 function About() {
   return (

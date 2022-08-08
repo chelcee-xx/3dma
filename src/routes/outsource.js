@@ -7,7 +7,7 @@ import c3 from "../img/explore.png";
 import c2 from "../img/control.png";
 import brand from "../img/brands.png"
 import bg from "../img/out_bg.png"
-
+import React from "react";
 function Outsource() {
     return (
         <main>

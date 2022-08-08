@@ -1,6 +1,6 @@
 import NavList from "./NavList";
 import Footer from "../components/Footer";
-import privacy from "../img/Privacy_bg.png";
+import privacy from "../img/Privacy_bg.png";import React from "react";
 
 function Policy() {
     return (

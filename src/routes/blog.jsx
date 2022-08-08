@@ -1,7 +1,7 @@
 import Footer from "../components/Footer";
 import NavList from "./NavList";
 import blog from "../img/blog_bg.png";
-import one from "../img/two.png";
+import one from "../img/two.png";import React from "react";
 
 function Blog() {
     return (

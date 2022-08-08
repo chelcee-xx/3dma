@@ -13,7 +13,7 @@ import app from "../img/services/app.png"
 import light from "../img/services/light.png"
 import chart from "../img/services/chart.png"
 import think from "../img/services/think.png"
-import serv from "../img/serv_bg.png"
+import serv from "../img/serv_bg.png";import React from "react";
 
 
 

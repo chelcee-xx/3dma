@@ -1,7 +1,7 @@
 import Footer from "../components/Footer";
 import NavList from "./NavList";
 import bg from "../img/recruit_bg.png"
-import up from "../img/upload.png"
+import up from "../img/upload.png";import React from "react";
 
 function Recruit() {
 
