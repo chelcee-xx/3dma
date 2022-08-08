@@ -11,7 +11,7 @@ import FooterH from "./components/FooterH";
 import Heading from "./components/Heading";
 import Why from "./components/why";
 import News from "./components/news";
-import Reviews from "./components/reviews";
+import Reviews from "./components/reviews";import React from "react";
 
 
 
