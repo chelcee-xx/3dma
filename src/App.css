@@ -88,6 +88,7 @@ footer h5 {
   grid-template-columns: 1fr 1fr;
   row-gap: 10px;
   width: 80px;
+  margin-top: 20px;
 }
 
 
@@ -132,14 +133,29 @@ footer {
   padding: 2% 7%;
 }
 
+.navbar{
+  padding-left: 94px;
+}
+
 footer {
-  background-color: #fefefe;
+  background-image: url("./img/footer.svg");
+  width: fit-content;
+  background-repeat: no-repeat;
+  
+}
+
+footer li{
+  color: #424242;
 }
 
 .nav-link {
   color: #918c8c;
 
 }
+
+/*     border-left-width: 0px;
+    padding-left: 105px;
+    mbot 0 4 nav logo */
 
 .nav-link:hover{
   color: #FF9800;
@@ -296,12 +312,16 @@ footer {
   padding-bottom: 70px;
 }
 
-
+.app{
+  /* background-color: #fefefe; */
+}
 
 .newsletter {
   position: relative;
   text-align: center;
   margin-bottom: 50px;
+  background-color: #fefefe;
+  /* margin-top: 50px; */
 }
 
 .form-info {
@@ -339,11 +359,14 @@ input[type='submit'] {
   -webkit-appearance: none;
 }
 
-.logo {
+#footer .logo, #footerh .logo {
   margin-bottom: 30px;
 }
 
-
+#footerh .row{
+  margin-top: 87px;
+  position: relative;
+}
 
 #news h3 {
   display: inline-block;
@@ -366,8 +389,12 @@ input[type='submit'] {
   margin-bottom: 20px;
 }
 
-.fa-youtube:hover{
-  color: red;
+.blue:hover{
+  background-color: #0d6efd;
+}
+
+.youtube:hover{
+  background-color: red;
 }
 
 #reviews h3{
@@ -487,6 +514,10 @@ td {
 #brands {
   background-color: #f9f9ff;
   margin-bottom: 60px;
+}
+
+#footerh .col-lg-3, #footer .col-lg-3{
+  z-index: 1;
 }
 
 
@@ -663,6 +694,10 @@ textarea {
   color: grey;
 }
 
+.form .title{
+  font-weight: bold;
+}
+
 #news .button {
   border: none;
   outline: 0;
@@ -675,9 +710,14 @@ textarea {
   width: 100%;
 }
 
+.above{
+ 
+  position: absolute;
+}
+
+
 #news p {
   color: #424242;
-  ;
 }
 
 .but {

@@ -6,7 +6,7 @@ function Form() {
       <div className="signupFrm">
         <div className="wrapper">
           <form action className="form">
-            <h4 className="title text-center">Get In Touch</h4>
+            <h4 className="title">Get In Touch</h4>
             <div className="inputContainer">
               <input type="text" className="input" placeholder="a" />
               <label htmlFor className="label">Full Name</label>

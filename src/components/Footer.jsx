@@ -1,11 +1,15 @@
 import React from "react";
 import logo from "../img/logo.svg";
 import { Link } from "react-router-dom";
+import linked from "../img/linkedin.png"
+import face from "../img/fbook.png"
+import twit from "../img/twitter.png"
+import tube from "../img/youtube.png"
 
 function Footer(){
     return(
         <footer id="footer">
-        <div className="row ">
+        <div className="row">
           <div className="col-lg-3">
             <img className="logo" src={logo} alt="a" />
             <h5 className="Address">Address: 675 Alpha Drive,<br />Ste E, Highland Heights,  OH 44143
@@ -14,9 +18,10 @@ function Footer(){
               Fax: (216) 966 1023
             </h5>
           </div>
+        
           <div className="col-lg-3 my-5">
             <ul>
-              <li><h5>links</h5></li>
+              <li>Links</li>
               <Link to="/about"><li>About</li></Link>
               <Link to="/training"><li>Training</li></Link>
               <Link to="/consult"><li>Consulting &amp; Advisory</li></Link>
@@ -26,20 +31,20 @@ function Footer(){
           </div>
           <div className="col-lg-3  my-5">
             <ul>
-              <li><h5>Support</h5></li>
+              <li>Support</li>
               <Link to="/blog"><li>IT Blog</li></Link>
               <Link to="/contact"><li>Contact Us</li></Link>
               <Link to="/policy"><li>Privacy Policy</li></Link>
             </ul>
           </div>
           <div className="contact col-lg-3  my-5">
-            <h5>Follow us</h5>
+            Follow Us
             <div className="icons">
               
-              <a href=""><i class="fa-brands fa-linkedin"></i></a>
-              <a href=""><i class="fa-brands fa-facebook"></i></a>
-              <a href=""><i className="fa-brands fa-twitter" /></a>
-              <a href=""><i class="fa-brands fa-youtube"></i></a>
+            <a href="" className=""> <img src={linked} className="blue"/></a>
+            <a href="" className><img src={face} className="blue"/></a>
+            <a href="" className><img src={twit} className="blue"/></a>
+            <a href="" ><img src={tube} className="youtube"/></a>
             </div>
           </div>
           <p className="text-center">Copyright (C)

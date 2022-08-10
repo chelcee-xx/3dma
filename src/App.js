@@ -7,11 +7,12 @@ import c1 from "./img/card1.png"
 import c2 from "./img/card2.png"
 import c3 from "./img/card3.png"
 import NavList from "./routes/NavList";
-import FooterH from "./components/FooterH";
+import Footer from "./components/Footer";
 import Heading from "./components/Heading";
 import Why from "./components/why";
 import News from "./components/news";
 import Reviews from "./components/reviews";import React from "react";
+import Newsletter from "./components/newsletter";
 
 
 
@@ -44,7 +45,8 @@ function App() {
       
       <Reviews />
       <News />
-      <FooterH />
+      <Newsletter />
+      <Footer />
 
 
       

@@ -6,7 +6,8 @@ function NavList() {
 
     let activeStyle = {
         textDecoration: 'underline',
-        color: '#fff'
+        color: '#FF9800'
+        
 
 };
 
