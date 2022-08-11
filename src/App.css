@@ -32,7 +32,7 @@ h3 {
   line-height: 44px;
 }
 
-a{
+a {
   text-decoration: none;
   color: initial;
 }
@@ -47,20 +47,20 @@ a{
   height: 11px;
 }
 
-.area{
+.area {
   height: 111px;
 }
 
-#blog p{
+#blog p {
   color: initial;
 }
 
-#blog .container{
+#blog .container {
   padding: 20px 30px;
 }
 
-#con-info .who{
- align-items: unset;
+#con-info .who {
+  align-items: unset;
 }
 
 h5,
@@ -133,7 +133,7 @@ footer {
   padding: 2% 7%;
 }
 
-.navbar{
+.navbar {
   padding-left: 94px;
 }
 
@@ -141,10 +141,10 @@ footer {
   background-image: url("./img/footer.svg");
   width: fit-content;
   background-repeat: no-repeat;
-  
+
 }
 
-footer li{
+footer li {
   color: #424242;
 }
 
@@ -157,9 +157,9 @@ footer li{
     padding-left: 105px;
     mbot 0 4 nav logo */
 
-.nav-link:hover{
+.nav-link:hover {
   color: #FF9800;
-  
+
 }
 
 
@@ -312,8 +312,12 @@ footer li{
   padding-bottom: 70px;
 }
 
-.app{
-  /* background-color: #fefefe; */
+
+
+.wrap {
+  margin-top: 0px;
+  padding-top: 50px;
+  background: #fefefe;
 }
 
 .newsletter {
@@ -359,11 +363,12 @@ input[type='submit'] {
   -webkit-appearance: none;
 }
 
-#footer .logo, #footerh .logo {
+#footer .logo,
+#footerh .logo {
   margin-bottom: 30px;
 }
 
-#footerh .row{
+#footerh .row {
   margin-top: 87px;
   position: relative;
 }
@@ -389,18 +394,19 @@ input[type='submit'] {
   margin-bottom: 20px;
 }
 
-.blue:hover{
+.blue:hover {
   background-color: #0d6efd;
 }
 
-.youtube:hover{
+.youtube:hover {
   background-color: red;
 }
 
-#reviews h3{
+#reviews h3 {
   width: initial;
 }
-.fa-star{
+
+.fa-star {
   color: #FF9800;
 }
 
@@ -411,12 +417,12 @@ input[type='submit'] {
 
 }
 
-.latest{
+.latest {
   background-color: #EBEBEB;
   padding: 50px 12px;
 }
 
-.list-group{
+.list-group {
   margin: 20px 0;
 }
 
@@ -516,7 +522,8 @@ td {
   margin-bottom: 60px;
 }
 
-#footerh .col-lg-3, #footer .col-lg-3{
+#footerh .col-lg-3,
+#footer .col-lg-3 {
   z-index: 1;
 }
 
@@ -546,9 +553,9 @@ td {
 
 .myForm {
   margin: 165px 523px;
-} 
+}
 
-.modal-wrapper{
+.modal-wrapper {
   background: rgba(0, 0, 0, 0.508);
   position: fixed;
   top: 0;
@@ -560,7 +567,8 @@ td {
   display: none;
 
 }
-.modal{
+
+.modal {
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
   max-width: 300px;
@@ -571,14 +579,16 @@ td {
   border-radius: 5px;
   position: relative;
 }
-.modal a{
+
+.modal a {
   text-decoration: none;
   background: crimson;
   color: white;
   padding: 5px 10px;
   border-radius: 5px;
-  margin: 10px; 
+  margin: 10px;
 }
+
 /*  */
 
 .form {
@@ -694,7 +704,7 @@ textarea {
   color: grey;
 }
 
-.form .title{
+.form .title {
   font-weight: bold;
 }
 
@@ -710,8 +720,8 @@ textarea {
   width: 100%;
 }
 
-.above{
- 
+.above {
+
   position: absolute;
 }
 
