@@ -36,6 +36,9 @@ a {
   text-decoration: none;
   color: initial;
 }
+ .active{
+  text-underline-offset: 5px;
+ }
 
 #files {
   visibility: hidden;
@@ -527,6 +530,25 @@ td {
   z-index: 1;
 }
 
+.navbar-collapse{
+  margin-left: 95px;
+}
+
+footer .row{
+  margin-left: 0;
+}
+
+.row1{
+  padding-left: 72px;
+}
+
+.row2{
+  padding-left: 104px;
+}
+
+.row3{
+  padding-left: 151px;
+}
 
 .signupFrm {
   position: relative;
@@ -602,7 +624,7 @@ td {
 area {
   position: relative;
   height: 45px;
-  width: 90%;
+  width: 133%;
   margin-bottom: 17px;
   border: 1px solid #3D340C;
   border-radius: 3px;

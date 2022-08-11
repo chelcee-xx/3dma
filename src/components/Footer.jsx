@@ -19,7 +19,7 @@ function Footer(){
             </h5>
           </div>
         
-          <div className="col-lg-3 my-5">
+          <div className="col-lg-3 my-5 row1">
             <ul>
               <li>Links</li>
               <Link to="/about"><li>About</li></Link>
@@ -29,7 +29,7 @@ function Footer(){
               <Link to="/outsourcing"><li>Outsourcing</li></Link>
             </ul>
           </div>
-          <div className="col-lg-3  my-5">
+          <div className="col-lg-3  my-5 row2">
             <ul>
               <li>Support</li>
               <Link to="/blog"><li>IT Blog</li></Link>
@@ -37,7 +37,7 @@ function Footer(){
               <Link to="/policy"><li>Privacy Policy</li></Link>
             </ul>
           </div>
-          <div className="contact col-lg-3  my-5">
+          <div className="contact col-lg-3  my-5 row3">
             Follow Us
             <div className="icons">
               

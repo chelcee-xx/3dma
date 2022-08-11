@@ -6,7 +6,8 @@ function NavList() {
 
     let activeStyle = {
         textDecoration: 'underline',
-        color: '#FF9800'
+        color: '#918c8c',
+        textDecorationColor: '#FF9800'
         
 
 };
@@ -25,7 +26,7 @@ return (
             <div className="collapse navbar-collapse" id="navbarNav">
                 <ul className="navbar-nav my-auto mx-auto">
                     <li className="nav-item">
-                        <NavLink className="nav-link"
+                        <NavLink className="nav-link" id="focusme"
                             to="/home"
                             style={({ isActive }) =>
                                 isActive ? activeStyle : undefined
