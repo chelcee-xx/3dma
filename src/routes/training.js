@@ -7,15 +7,14 @@ import icon from "../img/icon.svg"
 import train_bg from "../img/mobile/training/train_bg.png"
 import Slider from "react-slick";
 import { settings } from "../components/slider";
+import handleScroll from "../scroll";
+import { useEffect } from "react";
+
 
 function Training() {
-  const settings2 = {
-    dots: false,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1.2,
-    slidesToScroll: 1
-  };
+  useEffect(() => {
+    handleScroll()
+  }, []);
   return (
 
    
@@ -132,7 +131,7 @@ function Training() {
         <div className="mobile shrink">
 
           <h3 className="text-center">Get Trained on</h3>
-          <Slider {...settings2} >
+          <Slider >
             
               <div class="col">
                 <div class="p-3 border bg-white">

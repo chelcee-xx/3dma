@@ -98,7 +98,7 @@ footer h5 {
 
 
 .app h3 {
-  width: 25rem;
+  /* width: 25rem; */
 }
 
 h2 {
@@ -212,7 +212,7 @@ footer li {
 }
 
 .form-info h3 {
-  width: unset;
+
   color: #fff;
 }
 
@@ -286,7 +286,7 @@ footer li {
 
 }
 
-.flow{
+.flow {
   margin: 0 10px;
 }
 
@@ -304,6 +304,10 @@ footer li {
   font-size: 18px;
   text-align: center;
   font-weight: bold;
+}
+
+.z-1 {
+  z-index: -1;
 }
 
 .card p {
@@ -330,22 +334,25 @@ footer li {
   margin-top: 0px;
   padding-top: 50px;
   background: #fefefe;
+
 }
 
 .newsletter {
   position: relative;
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 10%;
   background-color: #fefefe;
+
   /* margin-top: 50px; */
 }
 
+
 .form-info {
   position: absolute;
-  left: 267px;
-  width: 60%;
-  top: 42px;
-  text-align: center;
+  top: 16%;
+  left: 0;
+  right: 0;
+
 }
 
 button[type='submit'] {
@@ -359,10 +366,10 @@ button[type='submit'] {
 
 
 input[type='text'] {
-  width: 400px;
-  margin-top: 30px;
+  width: 25rem;
+  margin-top: 10%;
   height: 50px;
-  padding-right: 105px;
+
 }
 
 input[type='submit'] {
@@ -373,6 +380,11 @@ input[type='submit'] {
   font-size: initial;
   border: 0;
   -webkit-appearance: none;
+}
+
+.adjust {
+  width: 100% !important;
+  padding-right: 105px;
 }
 
 #footer .logo,
@@ -515,7 +527,8 @@ td {
   list-style: none;
 }
 
-.skills li:before, .write-up li:before {
+.skills li:before,
+.write-up li:before {
   content: '✓ ';
 }
 
@@ -634,7 +647,7 @@ margin-bottom: 1rem;
 /*  */
 
 .form {
-  width: 400px;
+  width: 80%;
   border-radius: 8px;
   padding: 20px 40px;
 }
@@ -675,7 +688,7 @@ textarea {
   border: 1px solid #DADCE0;
   border-radius: 7px;
   font-size: 16px;
-  padding: 0 20px;
+  padding: 0 10%;
   outline: none;
   background: none;
   z-index: 1;
@@ -823,7 +836,7 @@ textarea {
 .border {
   display: flex;
   align-items: center;
-  margin: 0 20px;
+
 }
 
 .who1 Form {
@@ -835,12 +848,14 @@ textarea {
   width: 100%;
 }
 
-td p{
+td p {
   font-size: 14px;
 }
-td p::before{
+
+td p::before {
   content: url("./img/location.svg");
 }
+
 
 @media screen and (max-width: 600px) {
 
@@ -852,13 +867,22 @@ td p::before{
     display: none;
   }
 
-  section,.wrap {
-    overflow:hidden;
+  .form {
+    width: 90%;
+  }
+
+  .brands .slick-dots {
+    bottom: -5px
+  }
+
+  section,
+  .wrap {
+    overflow: hidden;
   }
 
   #heading1,
   .who1,
-  .mobile{
+  .mobile {
     display: block;
   }
 
@@ -893,6 +917,9 @@ td p::before{
 
   h3 {
     font-weight: 400;
+  }
+.services{
+    padding-right: 20%;
   }
 
   p {
@@ -936,7 +963,7 @@ td p::before{
     display: unset;
   }
 
-  .brands img{
+  .brands img {
     width: 80% !important;
   }
 
@@ -968,7 +995,7 @@ td p::before{
     width: 100%;
   }
 
-  
+
 
   .bold {
     font-weight: bold;
@@ -978,158 +1005,173 @@ td p::before{
   #footerh .logo {
     width: 35%
   }
-  .Address{
+
+  .Address {
     font-weight: 400;
   }
 
-  ul{
+  ul {
     padding-left: 0;
   }
 
-  .flex{
+  .flex {
     display: flex;
   }
 
-  .support{
+  .support {
     margin-bottom: 90px;
   }
-  .icons{
+
+  .icons {
     display: flex;
     margin-top: 0;
     width: unset;
   }
-  .icons div{
+
+  .icons div {
     margin-right: 10px;
   }
-  .absol{
+
+  .absol {
     position: absolute;
     top: 81%
   }
-  .rel{
+
+  .rel {
     position: relative;
   }
-  .one{
-    top:72%
-  }
-  .form-info{
-    left: unset;
-    width:unset;
+
+  .one {
+    top: 72%
   }
 
-  .form-info h4{
+
+  .form-info h6 {
     color: #fff;
     text-transform: capitalize;
   }
- .newsletter img{
-  height: 228px;
- }
 
- #navbarNav{
-  height: 100%;
-  width: 0;
-  margin: 0;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: rgb(0,0,0);
-  background-color: rgba(0,0,0, 0.9);
-  overflow-x: hidden;
-  transition: 0.5s;
- }
-
-.closebtn {
-  position: absolute;
-  top: 20px;
-  right: 45px;
-  font-size: 60px;
-  color: #fff;
-}
-.navbar-nav {
-  position: relative;
-  top: 25%;
-  width: 100%;
-  text-align: center;
-  margin-top: 30px;
-}
-
-.shift{
-  padding-left: 15px;
-}
-.btn1, .btn-outline-success {
-  margin: 0;
-}
-.slick-dots li:before{
-  content: none;
-}
-
-.who1 li::before{
-  content: '✓ ';
-}
-.btns1 .slick-dots{
-  margin-top: 20px;
-}
-
-footer{
-  margin-top: 20%;
-  padding: 2% 11%;
-}
-
-.card-subtitle p{
-  padding: 0 20%;
-}
-
-
-table thead {
-  display: none;
-}
-
-table tr {
-  border: 1px solid #ddd;
-  padding: 5%;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  grid-gap: 1.8rem;
-  margin-bottom: .625rem;
-}
-
-table td {
-  border-bottom: none;
-  padding-right: 0;
-  text-align: left;
-}
-
-table td::before {
-   content: attr(dataLabel);
-  display: block;
-  text-align: left;
-  font-size: 0.8rem;
-  margin-bottom: 20px;
-  text-transform: uppercase;
-}
-
-.myForm {
-  margin: 20% auto;
-}
-
-.no-width{
-  width: unset;
-}
-
-.place{
-  top:50%;
-  right: 20%;
-}
-
-@media screen and (max-height: 450px) {
-  .overlay a {font-size: 20px}
-  .overlay .closebtn {
-    font-size: 40px;
-    top: 15px;
-    right: 35px;
+  .newsletter img {
+    height: 228px;
   }
 
-}
+  #navbarNav {
+    height: 100%;
+    width: 0;
+    margin: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+
+  .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+    color: #fff;
+  }
+
+  .navbar-nav {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .shift {
+    padding-left: 15px;
+  }
+
+  .btn1,
+  .btn-outline-success {
+    margin: 0;
+  }
+
+  .slick-dots li:before {
+    content: none !important;
+  }
+
+  .who1 li::before {
+    content: '✓ ';
+  }
+
+  .btns1 .slick-dots {
+    margin-top: 20px;
+  }
+
+  footer {
+    margin-top: 20%;
+    padding: 2% 11%;
+  }
+
+  .card-subtitle p {
+    padding: 0 20%;
+  }
+
+
+  table thead {
+    display: none;
+  }
+
+  table tr {
+    border: 1px solid #ddd;
+    padding: 5%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-gap: 1.8rem;
+    margin-bottom: .625rem;
+    width: 98%;
+  }
+
+  table td {
+    border-bottom: none;
+    padding-right: 0;
+    text-align: left;
+  }
+
+  table td::before {
+    content: attr(dataLabel);
+    display: block;
+    text-align: left;
+    font-size: 0.8rem;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+
+  .myForm {
+    margin: 20% auto;
+  }
+
+  .no-width {
+    width: unset;
+  }
+
+  .place {
+    top: 50%;
+    right: 20%;
+  }
+
+
+
+  @media screen and (max-height: 450px) {
+    .overlay a {
+      font-size: 20px
+    }
+
+    .overlay .closebtn {
+      font-size: 40px;
+      top: 15px;
+      right: 35px;
+    }
+
+  }
 
 
 }

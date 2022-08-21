@@ -2,8 +2,14 @@ import NavList from "./NavList"
 import contact from "../img/contact_img.png"
 import Form from "../components/form"
 import Footer from "../components/Footer"; import React from "react";
+import handleScroll from "../scroll";
+import { useEffect } from "react";
+
 
 function Contact() {
+    useEffect(() => {
+        handleScroll()
+      }, []);
     return (
         <main>
             <NavList />

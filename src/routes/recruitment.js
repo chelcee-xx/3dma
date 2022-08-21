@@ -4,6 +4,8 @@ import bg from "../img/recruit_bg.png"
 import up from "../img/upload.png"; import React from "react";
 import bg2 from "../img/mobile/recruitment/recruit.png";
 import icon from "../img/location.svg"
+import handleScroll from "../scroll";
+import { useEffect } from "react";
 
 function Recruit() {
 
@@ -27,7 +29,10 @@ function Recruit() {
     function closeForm() {
         document.getElementsByClassName("modal-wrapper")[0].style.display = "none";
     }
-
+    
+    useEffect(() => {
+        handleScroll()
+      }, []);
 
     return (
         <main>

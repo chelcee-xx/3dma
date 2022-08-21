@@ -14,13 +14,14 @@ import News from "./components/news";
 import Reviews from "./components/reviews"; import React from "react";
 import Newsletter from "./components/newsletter";
 import meet from "./img/meeting.png"
-
 import { NavLink, Outlet } from "react-router-dom";
-
 import logo from "./logo.svg"
-import Sliders from "./components/slider";
+
+import { useEffect } from "react";
+
 import Slider from "react-slick";
 import { settings } from "./components/slider";
+
 
 function closeNav() {
     document.getElementById("navbarNav").style.width = "0%";
@@ -29,6 +30,10 @@ function openNav() {
     document.getElementById("navbarNav").style.width = "100%";}
 
 function App() {
+    {useEffect(() => {
+        // 👇️ scroll to top on page load
+        window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+      }, []);}
 
     let activeStyle = {
         textDecoration: 'underline',
@@ -126,7 +131,7 @@ function App() {
 
             <Heading />
             <section id="services">
-                <h3>explore our services with just a click</h3>
+                <h3>explore our services with <br/> just a click</h3>
                 <img src={c1}></img><img src={c2}></img><img src={c3}></img>
             </section>
             <Why />

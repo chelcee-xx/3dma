@@ -2,6 +2,7 @@ import { NavLink, Outlet } from "react-router-dom";
 import React from "react";
 import logo from "../img/logo.svg"
 
+
 function closeNav() {
     document.getElementById("navbarNav").style.width = "0%";
 }
@@ -9,6 +10,7 @@ function openNav() {
     document.getElementById("navbarNav").style.width = "100%";}
 
     function NavList() {
+       
 
         let activeStyle = {
             textDecoration: 'underline',

@@ -18,6 +18,9 @@ import b6 from "../img/brands/image 2.svg"
 import b7 from "../img/brands/Remitter_Logo-removebg-preview.svg"
 import Slider from "react-slick";
 import { settings } from "../components/slider";
+import handleScroll from "../scroll";
+import { useEffect } from "react";
+
 
 
 const settings1 = {
@@ -29,6 +32,9 @@ const settings1 = {
 };
 
 function Outsource() {
+    useEffect(() => {
+        handleScroll()
+      }, []);
     return (
         <main>
             <NavList />

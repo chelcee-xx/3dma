@@ -3,8 +3,16 @@ import Footer from "../components/Footer";
 import privacy from "../img/Privacy_bg.png";
 import policy from "../img/mobile/policy/policy.png"
 import React from "react";
+import handleScroll from "../scroll";
+import { useEffect } from "react";
+
+
 
 function Policy() {
+    useEffect(() => {
+        handleScroll()
+      }, []);
+    
     return (
         <main>
             <NavList />

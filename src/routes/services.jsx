@@ -16,10 +16,16 @@ import think from "../img/services/think.png"
 import serv from "../img/serv_bg.png"; 
 import React from "react";
 import service from "../img/mobile/services/services.png"
+import handleScroll from "../scroll";
+import { useEffect } from "react";
+
 
 
 
 function Services() {
+    useEffect(() => {
+        handleScroll()
+      }, []);
     return (
         <main>
             <NavList />

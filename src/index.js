@@ -18,8 +18,10 @@ import Policy from './routes/policy';
 import Blog from './routes/blog';
 
 
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+  
 
   <BrowserRouter>
     <Routes> 

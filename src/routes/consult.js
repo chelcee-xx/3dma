@@ -7,8 +7,14 @@ import bg from "../img/consul_bg.png";
 import stand_m from "../img/mobile/consult/stand.svg"
 import React from "react";
 import bg2 from "../img/mobile/consult/consult_bg.png"
+import handleScroll from "../scroll";
+import { useEffect } from "react";
+
 
 function Consult() {
+  useEffect(() => {
+    handleScroll()
+  }, []);
   return (
     <>
       <main>

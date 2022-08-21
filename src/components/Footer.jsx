@@ -97,8 +97,8 @@ function Footer() {
         </div>
 
         <div className="">
-          <img src={line1} className="absol one" />
-          <img src={line2} className="absol" />
+          <img src={line1} className="absol one z-1" />
+          <img src={line2} className="absol z-1" />
         </div>
       </div>
     </footer>

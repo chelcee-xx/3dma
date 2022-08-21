@@ -4,8 +4,13 @@ import blog from "../img/blog_bg.png";
 import one from "../img/two.png";
 import React from "react";
 import blog1 from "../img/mobile/blog/blog.png"
+import handleScroll from "../scroll";
+import { useEffect } from "react";
 
 function Blog() {
+    useEffect(() => {
+        handleScroll()
+      }, []);
     return (
         <main>
             <NavList />

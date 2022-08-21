@@ -70,7 +70,7 @@ function Heading() {
                         <div className="image">
                             <img src={bus} alt="a" />
                         </div> 
-                       
+                       <div className="p-3">
                         <p>we are a training and consulting company We know staying current is paramount in a rapidly changing
                             industry.
                             That's why we actively participate in technology industry associations and conferences on the state
@@ -78,7 +78,7 @@ function Heading() {
                             national levels, making sure you stay current on the issues, trends, and laws that impact your
                             business.
                         </p>
-                    
+                    </div>
                 </div>
             </section></>
     )

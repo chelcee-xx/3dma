@@ -6,10 +6,18 @@ import Footer from "../components/Footer";
 import Why from "../components/why";
 import React from "react";
 import w2 from "../img/mobile/about/about_b.png"
+import handleScroll from "../scroll";
+import { useEffect } from "react";
+
+
 
 function About() {
+  useEffect(() => {
+    handleScroll()
+  }, []);
   return (
     <>
+     {/* <handleScroll/> */}
       <main>
         <NavList></NavList>
         <section id="why">
