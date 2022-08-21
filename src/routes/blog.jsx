@@ -1,19 +1,22 @@
 import Footer from "../components/Footer";
 import NavList from "./NavList";
 import blog from "../img/blog_bg.png";
-import one from "../img/two.png";import React from "react";
+import one from "../img/two.png";
+import React from "react";
+import blog1 from "../img/mobile/blog/blog.png"
 
 function Blog() {
     return (
         <main>
             <NavList />
-            <img src={blog} />
-
+            <img src={blog} className="desktop"/>
+            <img src={blog1} className="mobile"></img>
+            <br/><br/><br/>
             <section id="blog">
 
                 <div className="row">
                     <div className="col-lg-8 ">
-
+<h3 className="bold">Latest Post</h3>
                         <div className="column shadow">
                             <div className="card">
                                 <img src={one} alt="comp" style={{ width: '100%' }} />
@@ -24,7 +27,7 @@ function Blog() {
                             </div>
                         </div>
 
-                        <div className="signupFrm">
+                        <div className="signupFrm frm">
                             <div className="wrapper">
                                 <form action className="form">
                                     <h4 className="title text-center">Comment</h4>

@@ -8,9 +8,10 @@ function Newsletter(){
         <img className="text-center" src={news} alt="a" />
 
         <div className="form-info">
-          <h3>get our weekly update by subscribing to our newsletter</h3>
-          <input type="text" /><input type="submit" defaultValue="Subscribe" />
-        </div></div>L</div>
+          <h3 className="desktop">get our weekly update by subscribing to our newsletter</h3>
+          <h4 className="mobile">get our weekly update by <br/>subscribing to our newsletter</h4>
+        <div className="mx-5">  <input type="text" /><input type="submit" value="Subscribe" /></div>
+        </div></div></div>
     )
 }
 

@@ -3,7 +3,9 @@ import w from "../img/why_bg.jpg";
 import glass from "../img/glasses.png";
 import bus from "../img/bus_men.png";
 import Footer from "../components/Footer";
-import Why from "../components/why";import React from "react";
+import Why from "../components/why";
+import React from "react";
+import w2 from "../img/mobile/about/about_b.png"
 
 function About() {
   return (
@@ -11,7 +13,8 @@ function About() {
       <main>
         <NavList></NavList>
         <section id="why">
-          <img src={w} alt="bg"></img>
+          <img src={w} alt="bg" className="desktop"></img>
+          <img src={w2} width="100%" alt="bg" className="mobile"></img>
           <h2>about us</h2>
         </section>
         <section id="info">
@@ -21,6 +24,19 @@ function About() {
             </div>
             <div className="write-up">
               <h3>About us</h3>
+              <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. More than 25 years of experience working in the industry has enabled us to build our services and solutions in strategy, consulting, digital.on the state and national levels, making sure you stay current on the issues, trends, and laws that impact your business.
+              </p>
+            </div>
+
+          </div>
+
+          <div className="who1">
+          <h3>About us</h3>
+            <div>
+              <img src={glass} width="250%" alt="a" />
+            </div>
+            <div className="write-up">
+              
               <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. More than 25 years of experience working in the industry has enabled us to build our services and solutions in strategy, consulting, digital.on the state and national levels, making sure you stay current on the issues, trends, and laws that impact your business.
               </p>
             </div>
@@ -64,6 +80,24 @@ function About() {
               <div>
                 <img src={bus} alt="a" />
               </div>
+            </div>
+
+            <div className="who1">
+            <h3 className="line">who we are</h3>
+            <div>
+                <img src={bus} alt="a" width="100%" />
+              </div>
+              <div className="write-up">
+                
+                <p>we are a training and consulting company We know staying current is paramount in a rapidly changing
+                  industry.
+                  That's why we actively participate in technology industry associations and conferences on the state
+                  and
+                  national levels, making sure you stay current on the issues, trends, and laws that impact your
+                  business.
+                </p>
+              </div>
+             
             </div>
           </section>
           <Why />

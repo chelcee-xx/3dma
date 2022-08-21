@@ -1,23 +1,25 @@
 import Footer from "../components/Footer";
 import NavList from "./NavList";
 import bg from "../img/recruit_bg.png"
-import up from "../img/upload.png";import React from "react";
+import up from "../img/upload.png"; import React from "react";
+import bg2 from "../img/mobile/recruitment/recruit.png";
+import icon from "../img/location.svg"
 
 function Recruit() {
 
     function openForm(event) {
 
-            var rowId =
-                event.target.parentNode.parentNode.id;
-            //this gives id of tr whose button was clicked
-            var data = document.getElementById(rowId).querySelectorAll(".row-data");
-            /*returns array of all elements with 
-            "row-data" class within the row with given id*/
+        var rowId =
+            event.target.parentNode.parentNode.id;
+        //this gives id of tr whose button was clicked
+        var data = document.getElementById(rowId).querySelectorAll(".row-data");
+        /*returns array of all elements with 
+        "row-data" class within the row with given id*/
 
-            var name = data[0].innerHTML;
-            const result = name.split('<')[0];
-            window.job = result;
-            console.log("Name: " + window.job);
+        var name = data[0].innerHTML;
+        const result = name.split('<')[0];
+        window.job = result;
+        console.log("Name: " + window.job);
         document.getElementsByClassName("title")[0].innerHTML = window.job;
         document.getElementsByClassName("modal-wrapper")[0].style.display = "block";
     }
@@ -32,56 +34,61 @@ function Recruit() {
             <div id="blur">
                 <NavList />
                 <section id="why">
-                    <img src={bg}></img>
+                    <img src={bg} className="desktop"></img>
+                    <img src={bg2} className="mobile"/>
                 </section>
 
                 <section id="apply">
                     <h3 className="text-center">Hiring Just Got Easy Now</h3>
 
                     <table>
+                    <thead>
                         <tr>
                             <th>Name</th>
                             <th>Job type</th>
                             <th>Salary</th>
                             <th>Apply</th>
                         </tr>
+                        </thead>
+                        <tbody>
                         <tr id="1">
-                            <td class="row-data">Senior Web Developer
+                            <td dataLabel="Name" class="row-data">Senior Web Developer
                                 <p>lekki lagos nigeria</p></td>
-                            <td class="row-data">Hybrid</td>
-                            <td class="row-data">N200K-500K</td>
-                            <td><button type="submit" onClick={openForm}>Apply</button></td>
+                            <td dataLabel="Type" class="row-data">Hybrid</td>
+                            <td dataLabel="Salary" class="row-data">N200K-500K</td>
+                            <td ><button type="submit" onClick={openForm}>Apply</button></td>
                         </tr>
                         <tr id="2">
-                            <td class="row-data">Branch Manager - Tank And Pump Developer<p>lekki lagos nigeria</p></td>
-                            <td class="row-data">Remote</td>
-                            <td class="row-data">N200K-500K</td>
-                            <td class="row-data"><button type="submit" onClick={openForm}>Apply</button></td>
+                            <td dataLabel="Name" class="row-data">Branch Manager - Tank And Pump Developer<p>lekki lagos nigeria</p></td>
+                            <td dataLabel="Type" class="row-data">Remote</td>
+                            <td dataLabel="Salary" class="row-data">N200K-500K</td>
+                            <td  class="row-data"><button type="submit" onClick={openForm}>Apply</button></td>
                         </tr>
                         <tr id="3">
-                            <td class="row-data">software engineer<p>lekki lagos nigeria</p></td>
-                            <td class="row-data">Onsite</td>
-                            <td class="row-data">N200K-500K</td>
-                            <td class="row-data"><button type="submit" onClick={openForm}>Apply</button></td>
+                            <td dataLabel="Name" class="row-data">software engineer<p>lekki lagos nigeria</p></td>
+                            <td  dataLabel="Type"class="row-data">Onsite</td>
+                            <td  dataLabel="Salary"class="row-data">N200K-500K</td>
+                            <td  class="row-data"><button type="submit" onClick={openForm}>Apply</button></td>
                         </tr>
                         <tr id="4">
-                            <td class="row-data">Manual Machinist<p>lekki lagos nigeria</p></td>
-                            <td class="row-data">Remote</td>
-                            <td class="row-data">N200K-500K</td>
-                            <td class="row-data"><button type="submit" onClick={openForm}>Apply</button></td>
+                            <td dataLabel="Name" class="row-data">Manual Machinist<p>lekki lagos nigeria</p></td>
+                            <td  dataLabel="Type" class="row-data">Remote</td>
+                            <td  dataLabel="Salary" class="row-data">N200K-500K</td>
+                            <td  class="row-data"><button type="submit" onClick={openForm}>Apply</button></td>
                         </tr>
                         <tr id="5">
-                            <td class="row-data">software engineer<p>lekki lagos nigeria</p></td>
-                            <td class="row-data">Onsite</td>
-                            <td class="row-data">N200K-500K</td>
-                            <td class="row-data"><button type="submit" onClick={openForm}>Apply</button></td>
+                            <td dataLabel="Name" class="row-data">software engineer<p>lekki lagos nigeria</p></td>
+                            <td dataLabel="Type" class="row-data">Onsite</td>
+                            <td dataLabel="Salary" class="row-data">N200K-500K</td>
+                            <td  class="row-data"><button type="submit" onClick={openForm}>Apply</button></td>
                         </tr>
                         <tr id="6">
-                            <td class="row-data">Branch Manager - Tank And Pump<p>lekki lagos nigeria</p></td>
-                            <td class="row-data">Hybrid</td>
-                            <td class="row-data">N200K-500K</td>
-                            <td class="row-data"><button type="submit" onClick={openForm}>Apply</button></td>
+                            <td dataLabel="Name" class="row-data">Branch Manager - Tank And Pump<p>lekki lagos nigeria</p></td>
+                            <td dataLabel="Type" class="row-data">Hybrid</td>
+                            <td dataLabel="Salary" class="row-data">N200K-500K</td>
+                            <td  class="row-data"><button type="submit" onClick={openForm}>Apply</button></td>
                         </tr>
+                        </tbody>
                     </table>
                 </section>
             </div>

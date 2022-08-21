@@ -36,9 +36,10 @@ a {
   text-decoration: none;
   color: initial;
 }
- .active{
+
+.active {
   text-underline-offset: 5px;
- }
+}
 
 #files {
   visibility: hidden;
@@ -112,9 +113,9 @@ h5 {
 }
 
 p {
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 400;
-  color: #424242;
+  color: #000000;
 
 }
 
@@ -123,7 +124,8 @@ li {
 }
 
 nav,
-#heading {
+#heading,
+#heading1 {
   background-color: #0C0C27;
 }
 
@@ -140,7 +142,7 @@ footer {
   padding-left: 94px;
 }
 
-footer {
+footer .desktop {
   background-image: url("./img/footer.svg");
   width: fit-content;
   background-repeat: no-repeat;
@@ -205,14 +207,18 @@ footer li {
   line-height: 32px;
 }
 
-
-
+#serving h6 {
+  font-weight: 400;
+}
 
 .form-info h3 {
   width: unset;
   color: #fff;
 }
 
+.reasons .above {
+  color: #fff;
+}
 
 
 .images img {
@@ -224,7 +230,7 @@ footer li {
 .images>img:hover {
   position: relative;
   bottom: 10px;
-  box-shadow: -11px 37px 7px 7px rgba(237, 237, 251, 0.5);
+  box-shadow: -11px 37px 7px 7px #ededfb80;
 
 }
 
@@ -280,6 +286,9 @@ footer li {
 
 }
 
+.flow{
+  margin: 0 10px;
+}
 
 .container1 .border,
 .container2 .border {
@@ -357,7 +366,7 @@ input[type='text'] {
 }
 
 input[type='submit'] {
-  margin-left: -70px;
+  margin-left: -92px;
   height: 49px;
   background-color: #FFB400;
   ;
@@ -444,6 +453,12 @@ input[type='submit'] {
 .third {
   margin-left: 20px;
   box-shadow: 0px 8px 22px -6px #18274b1f, 0px 14px 64px -4px #18274b1f;
+  /* box-shadow: 8px 22px -6px #18274b1f, 0px 14px 64px -4px rgba(24, 39, 75, 0.12); */
+}
+
+.mobile .card {
+  margin-left: 0;
+  box-shadow: none;
 }
 
 
@@ -530,23 +545,23 @@ td {
   z-index: 1;
 }
 
-.navbar-collapse{
+.navbar-collapse {
   margin-left: 95px;
 }
 
-footer .row{
+footer .row {
   margin-left: 0;
 }
 
-.row1{
+.row1 {
   padding-left: 72px;
 }
 
-.row2{
+.row2 {
   padding-left: 104px;
 }
 
-.row3{
+.row3 {
   padding-left: 151px;
 }
 
@@ -585,9 +600,8 @@ footer .row{
   left: 0;
   height: 100%;
   width: 100%;
-
   display: none;
-
+  z-index: 2;
 }
 
 .modal {
@@ -611,6 +625,12 @@ footer .row{
   margin: 10px;
 }
 
+/* .slick-dots{
+  margin-top: 0;
+margin-bottom: 1rem;
+  height: 30px;
+} */
+
 /*  */
 
 .form {
@@ -624,10 +644,14 @@ footer .row{
 area {
   position: relative;
   height: 45px;
-  width: 133%;
+
   margin-bottom: 17px;
   border: 1px solid #3D340C;
   border-radius: 3px;
+}
+
+.signupFrm .inputContainer {
+  width: 133%;
 }
 
 .area {
@@ -708,7 +732,11 @@ textarea {
 
 #news .card {
   box-shadow: 0 4px 8px 0 #00000033;
-  height: 580px;
+  height: max-content;
+}
+
+#news img {
+  height: 360px;
 }
 
 #news .container {
@@ -743,7 +771,6 @@ textarea {
 }
 
 .above {
-
   position: absolute;
 }
 
@@ -773,4 +800,319 @@ textarea {
   right: 35px;
   border: 3px solid #f1f1f1;
   z-index: 9;
+}
+
+#heading1,
+.who1,
+.mobile {
+  display: none;
+}
+
+#get .shrink img {
+  width: 70px;
+}
+
+#get .mobile h4 {
+  display: inline-block;
+}
+
+.col {
+  margin-right: 20px;
+}
+
+.border {
+  display: flex;
+  align-items: center;
+  margin: 0 20px;
+}
+
+.who1 Form {
+  padding: 0;
+}
+
+
+.who1 Form .inputContainer {
+  width: 100%;
+}
+
+td p{
+  font-size: 14px;
+}
+td p::before{
+  content: url("./img/location.svg");
+}
+
+@media screen and (max-width: 600px) {
+
+  /* heading */
+  .abs,
+  #heading,
+  .who,
+  .desktop {
+    display: none;
+  }
+
+  section,.wrap {
+    overflow:hidden;
+  }
+
+  #heading1,
+  .who1,
+  .mobile{
+    display: block;
+  }
+
+
+  .navbar {
+    background-color: #fff;
+  }
+
+  .navbar-brand {
+    margin-left: -54px;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  #heading1,
+  section {
+    padding: 0 0 0 30px;
+    /* overflow: hidden; */
+    position: relative;
+  }
+
+  .max {
+    margin-left: 3%;
+    width: 120%;
+    margin-bottom: 40px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  h3 {
+    font-weight: 400;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  #heading1 p {
+    color: #fff;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    font-size: 16px;
+    padding-right: 10%;
+  }
+
+  .zag {
+    position: absolute;
+    bottom: 20%;
+    left: 6px;
+    width: 30px;
+  }
+
+  /* info */
+  .who1 .write-up {
+    width: unset;
+  }
+
+  /* about */
+  .mis-vis {
+    flex-direction: column;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  .smile {
+    width: 100vh;
+  }
+
+  .slick-slide img {
+    display: unset;
+  }
+
+  .brands img{
+    width: 80% !important;
+  }
+
+
+  .find {
+    text-align: left !important;
+  }
+
+  .skills h3 {
+    padding-left: 26px;
+  }
+
+  .work {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .work img {
+    width: 70%;
+  }
+
+
+  .services img {
+    border-radius: 0;
+    margin-bottom: 20px;
+  }
+
+  .frm .inputContainer {
+    width: 100%;
+  }
+
+  
+
+  .bold {
+    font-weight: bold;
+  }
+
+  #footer .logo,
+  #footerh .logo {
+    width: 35%
+  }
+  .Address{
+    font-weight: 400;
+  }
+
+  ul{
+    padding-left: 0;
+  }
+
+  .flex{
+    display: flex;
+  }
+
+  .support{
+    margin-bottom: 90px;
+  }
+  .icons{
+    display: flex;
+    margin-top: 0;
+    width: unset;
+  }
+  .icons div{
+    margin-right: 10px;
+  }
+  .absol{
+    position: absolute;
+    top: 81%
+  }
+  .rel{
+    position: relative;
+  }
+  .one{
+    top:72%
+  }
+  .form-info{
+    left: unset;
+    width:unset;
+  }
+
+  .form-info h4{
+    color: #fff;
+    text-transform: capitalize;
+  }
+ .newsletter img{
+  height: 228px;
+ }
+
+ #navbarNav{
+  height: 100%;
+  width: 0;
+  margin: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+ }
+
+.closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+  color: #fff;
+}
+.navbar-nav {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.shift{
+  padding-left: 15px;
+}
+.btn1, .btn-outline-success {
+  margin: 0;
+}
+.slick-dots li:before{
+  content: none;
+}
+.btns1 .slick-dots{
+  margin-top: 20px;
+}
+
+footer{
+  padding: 2% 11%;
+}
+
+table{
+  margin-bottom: 20%;
+}
+
+
+table thead {
+  display: none;
+}
+
+table tr {
+  border: 1px solid #ddd;
+  padding: 5%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-gap: 1.8rem;
+  margin-bottom: .625rem;
+}
+
+table td {
+  border-bottom: none;
+  padding-right: 0;
+  text-align: left;
+}
+
+table td::before {
+   content: attr(dataLabel);
+  display: block;
+  text-align: left;
+  font-size: 0.8rem;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+
+}
+
+
 }
