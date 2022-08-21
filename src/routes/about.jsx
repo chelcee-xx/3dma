@@ -24,7 +24,7 @@ function About() {
             </div>
             <div className="write-up">
               <h3>About us</h3>
-              <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. More than 25 years of experience working in the industry has enabled us to build our services and solutions in strategy, consulting, digital.on the state and national levels, making sure you stay current on the issues, trends, and laws that impact your business.
+              <p>3DMA Consulting Limited is limited liability company incorporated in response to the growing need to better position organizations to derive more benefits in the use of information System resources and Enhance Cyber Security.
               </p>
             </div>
 
@@ -37,8 +37,7 @@ function About() {
             </div>
             <div className="write-up">
               
-              <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. More than 25 years of experience working in the industry has enabled us to build our services and solutions in strategy, consulting, digital.on the state and national levels, making sure you stay current on the issues, trends, and laws that impact your business.
-              </p>
+              <p>3DMA Consulting Limited is limited liability company incorporated in response to the growing need to better position organizations to derive more benefits in the use of information System resources and Enhance Cyber Security.</p>
             </div>
 
           </div>

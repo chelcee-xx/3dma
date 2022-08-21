@@ -8,8 +8,12 @@ function Policy() {
     return (
         <main>
             <NavList />
+
             <img src={privacy} className="desktop"/>
+            <div className="rel">
             <img src={policy} className="mobile"/>
+            <h1 className="absol place">Privacy policy</h1>
+            </div>
             <br/>
             <section id="policy">
             <div className="p-3">

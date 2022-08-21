@@ -94,6 +94,7 @@ function Recruit() {
             </div>
 
 
+
             <div className="modal-wrapper">
                 <form action className="form color center myForm">
                     <h6 className="title text-center"></h6>
@@ -110,7 +111,7 @@ function Recruit() {
                         <label htmlFor className="label">Phone number</label>
                     </div>
                     <div className="inputContainer">
-                        <label for="files" class="btn but">Upload your cv <img src={up} /></label>
+                        <label for="files" class="btn but">Upload your cv <img src={up} className="no-width"/></label>
                         <input id="files" type="file" />
                         <label htmlFor className="label">Upload Cv</label>
 

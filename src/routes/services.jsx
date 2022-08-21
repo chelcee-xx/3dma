@@ -35,6 +35,11 @@ function Services() {
                         <div className="write-up">
                             <h3>Information Security</h3>
                             <p>Information Security is basically the practice of preventing unauthorized access, use, disclosure, disruption, modification, inspection, recording or destruction of information. Information can be physical or electronic one </p>
+                        <ul>
+                            <li>ITIL 4 foundation</li>
+                            <li>ISO 20000 Lead Implementer</li>
+                            <li>ISO 20000 Lead Auditor</li>
+                        </ul>
                         </div> <div>
                             <img src={girl} alt="a" />
                         </div>
@@ -47,13 +52,25 @@ function Services() {
                         <div className="write-up">
                             <h3>Service Management </h3>
                             <p>Service Management is a customer-focused approach to delivering information technology. Service Management focuses on providing value to the customer and also on the customer relationship </p>
+                        <ul>
+                            <li>ISO 27001 Lead Auditor</li>
+                            <li>ISO 27001 Lead Implementer</li>
+                            <li>Certified Information Security Manager (CISM)</li>
+                            <li>Cyber Security Awareness Training for Staff</li>
+                        </ul>
+
                         </div>
                     </div>
                     <div className="who">
                         <div className="write-up">
                             <h3>Business Continuity</h3>
                             <p>Project management is the process of leading the work of a team to achieve all project goals within the given constraints. This information is usually described in project documentation, </p>
-                        </div> <div>
+                        
+                            <ul>
+                            <li>ISO 22301 Lead Implementer</li>
+                            <li>ISO 22301 Lead Auditor</li>
+                            
+                        </ul></div> <div>
                             <img src={meet} alt="a" />
                         </div>
                     </div>
@@ -64,14 +81,21 @@ function Services() {
                         <div className="write-up">
                             <h3>IT Governance</h3>
                             <p>The Federal and State Government have been one of our most reliable clientele and we have produced cards that cut across several of its paratatals. </p>
-                        </div>
+                            <ul>
+                            <li>COBIT 2019 Foundation</li>
+                            <li>COBIT 2019 Design and Implementation</li>
+                            <li>Certified in The Governance of Enterprise IT(CGEIT)</li>
+                            <li>Certified Information Systems Auditor (CISA)</li>
+                        </ul></div>
                     </div>
                     <div className="who">
 
                         <div className="write-up">
                             <h3>Project Management</h3>
                             <p>Project management is the process of leading the work of a team to achieve all project goals within the given constraints. This information is usually described in project documentation, created at the beginning of the development process.</p>
-                        </div> <div>
+                       <ul>
+                        <li>Project Management Professional PMP Training</li>
+                       </ul> </div> <div>
                             <img src={old} alt="a" />
                         </div>
                     </div>
@@ -99,13 +123,21 @@ function Services() {
                         <div className="write-up">
                             <h3>Management System Implementation</h3>
                             <p> A management system is the framework that enables companies to achieve their operational and business objectives through a process of continuous improvement. </p>
-                        </div>
+                            <ul>
+                            <li>ISO 22301</li>
+                            <li>ISO 20000</li>
+                            <li>ISO 27001 (Plus Cyber Assurance & Compliance)</li>
+                           
+                        </ul></div>
                     </div>
                     <div className="who">
 
                         <div className="write-up">
                             <h3>Compliance Reviews, Maturity Assessments and Audits</h3>
                             <p>Industry Risk's security compliance reviews and audit services involve assessing existing arrangements for alignment or conformance with designated benchmarks (legislation, standards, codes, policies etc.) We perform these security compliance processes in relation to both security management functions and cybersecurity requirements.</p>
+                       <ul>
+                        <li>COBIT 2019 Implementation</li>
+                       </ul>
                         </div> <div>
                             <img src={stock} alt="a" />
                         </div>
@@ -133,7 +165,9 @@ function Services() {
                         <div className="write-up">
                             <h3>Audits & Assurance</h3>
                             <p>Assurance in auditing refers to the opinions issued by a professional regarding the accuracy and completeness of what's analyzed. For example, an accountant assuring that financial statements are accurate and valid asserts that they have reviewed the documents using acceptable accounting standards and principles.</p>
-                        </div> <div>
+                            <ul>
+                        <li>COBIT 2019 Implementation</li>
+                       </ul></div> <div>
                             <img src={think} alt="a" />
                         </div>
                     </div>
@@ -145,14 +179,19 @@ function Services() {
                             <h3>Strategy Consulting</h3>
                             <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. More than 25 years of experience working in the industry has enabled us to build our services and solutions in strategy, consulting, digital.on the state and national levels, making sure you stay current on the issues, trends, and laws that impact your business.
                                 Strategy consultants advise organisations on high-level decisions in an unbiased fashion, using deep industry knowledge to deliver the best results. It is a type of Management Consulting, which generally implies advising at the highest-level of a company..</p>
-                        </div>
+                                <ul>
+                        <li>Cyber Security Strategy</li>
+                        <li>Digital Strategy</li>
+                       </ul></div>
                     </div>
                     <div className="who">
 
                         <div className="write-up">
                             <h3>Virtual Chief Information officer Advisory</h3>
                             <p>The vCIO collaborates with and advises clients' IT departments and performs the same functions as a conventional CIO. Those duties include formulating strategic IT goals, planning the IT budget, analyzing and reworking business processes and facilitating technology changes.</p>
-                        </div> <div>
+                            <ul>
+                        <li>Virtual CIO Consultancy</li>
+                       </ul> </div> <div>
                             <img src={light} alt="a" />
                         </div>
                     </div>
@@ -204,7 +243,11 @@ function Services() {
                             <img src={girl} alt="a" />
                         </div>
                         <p>Information Security is basically the practice of preventing unauthorized access, use, disclosure, disruption, modification, inspection, recording or destruction of information. Information can be physical or electronic one </p>
-                    </div>
+                        <ul>
+                            <li>ITIL 4 foundation</li>
+                            <li>ISO 20000 Lead Implementer</li>
+                            <li>ISO 20000 Lead Auditor</li>
+                        </ul></div>
 
                     <div className="who1">
                     <h3>Service Management </h3>
@@ -214,7 +257,12 @@ function Services() {
                       
                            
                             <p>Service Management is a customer-focused approach to delivering information technology. Service Management focuses on providing value to the customer and also on the customer relationship </p>
-                        
+                            <ul>
+                            <li>ISO 27001 Lead Auditor</li>
+                            <li>ISO 27001 Lead Implementer</li>
+                            <li>Certified Information Security Manager (CISM)</li>
+                            <li>Cyber Security Awareness Training for Staff</li>
+                        </ul>
                     </div>
                     <div className="who1">
                       
@@ -223,7 +271,11 @@ function Services() {
                             <img src={meet} alt="a" />
                         </div>
                             <p>Project management is the process of leading the work of a team to achieve all project goals within the given constraints. This information is usually described in project documentation, </p>
-                     
+                            <ul>
+                            <li>ISO 22301 Lead Implementer</li>
+                            <li>ISO 22301 Lead Auditor</li>
+                            
+                        </ul>
                     </div>
                     <div className="who1">
                     <h3>IT Governance</h3>
@@ -233,7 +285,12 @@ function Services() {
                         
                            
                             <p>The Federal and State Government have been one of our most reliable clientele and we have produced cards that cut across several of its paratatals. </p>
-                      
+                            <ul>
+                            <li>COBIT 2019 Foundation</li>
+                            <li>COBIT 2019 Design and Implementation</li>
+                            <li>Certified in The Governance of Enterprise IT(CGEIT)</li>
+                            <li>Certified Information Systems Auditor (CISA)</li>
+                        </ul>
                     </div>
                     <div className="who1">
 
@@ -243,7 +300,9 @@ function Services() {
                             <img src={old} alt="a" />
                         </div>
                             <p>Project management is the process of leading the work of a team to achieve all project goals within the given constraints. This information is usually described in project documentation, created at the beginning of the development process.</p>
-                       
+                            <ul>
+                        <li>Project Management Professional PMP Training</li>
+                       </ul>
                     </div>
                     <div className="who1">
                         
@@ -271,7 +330,12 @@ function Services() {
                             <img src={lady} alt="a" />
                         </div>
                             <p> A management system is the framework that enables companies to achieve their operational and business objectives through a process of continuous improvement. </p>
-                        
+                            <ul>
+                            <li>ISO 22301</li>
+                            <li>ISO 20000</li>
+                            <li>ISO 27001 (Plus Cyber Assurance & Compliance)</li>
+                           
+                        </ul>
                     </div>
                     <div className="who1">
 
@@ -281,7 +345,9 @@ function Services() {
                             <img src={stock} alt="a" />
                         </div>
                             <p>Industry Risk's security compliance reviews and audit services involve assessing existing arrangements for alignment or conformance with designated benchmarks (legislation, standards, codes, policies etc.) We perform these security compliance processes in relation to both security management functions and cybersecurity requirements.</p>
-                       
+                            <ul>
+                        <li>COBIT 2019 Implementation</li>
+                       </ul>
                     </div>
                     <div className="who1">
                        
@@ -311,7 +377,9 @@ function Services() {
                             <img src={think} alt="a" />
                         </div>
                             <p>Assurance in auditing refers to the opinions issued by a professional regarding the accuracy and completeness of what's analyzed. For example, an accountant assuring that financial statements are accurate and valid asserts that they have reviewed the documents using acceptable accounting standards and principles.</p>
-                       
+                            <ul>
+                        <li>COBIT 2019 Implementation</li>
+                       </ul>
                     </div>
                     <div className="who1">
                         
@@ -322,7 +390,10 @@ function Services() {
                         </div>
                             <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. More than 25 years of experience working in the industry has enabled us to build our services and solutions in strategy, consulting, digital.on the state and national levels, making sure you stay current on the issues, trends, and laws that impact your business.
                                 Strategy consultants advise organisations on high-level decisions in an unbiased fashion, using deep industry knowledge to deliver the best results. It is a type of Management Consulting, which generally implies advising at the highest-level of a company..</p>
-                       
+                                <ul>
+                        <li>Cyber Security Strategy</li>
+                        <li>Digital Strategy</li>
+                       </ul>
                     </div>
                     <div className="who1">
 
@@ -332,7 +403,9 @@ function Services() {
                             <img src={light} alt="a" />
                         </div>
                             <p>The vCIO collaborates with and advises clients' IT departments and performs the same functions as a conventional CIO. Those duties include formulating strategic IT goals, planning the IT budget, analyzing and reworking business processes and facilitating technology changes.</p>
-                        
+                            <ul>
+                        <li>Virtual CIO Consultancy</li>
+                       </ul>
                     </div>
                     <div className="who1">
                         

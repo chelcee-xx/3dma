@@ -515,7 +515,7 @@ td {
   list-style: none;
 }
 
-.skills li:before {
+.skills li:before, .write-up li:before {
   content: '✓ ';
 }
 
@@ -878,7 +878,6 @@ td p::before{
   #heading1,
   section {
     padding: 0 0 0 30px;
-    /* overflow: hidden; */
     position: relative;
   }
 
@@ -1063,16 +1062,21 @@ td p::before{
 .slick-dots li:before{
   content: none;
 }
+
+.who1 li::before{
+  content: '✓ ';
+}
 .btns1 .slick-dots{
   margin-top: 20px;
 }
 
 footer{
+  margin-top: 20%;
   padding: 2% 11%;
 }
 
-table{
-  margin-bottom: 20%;
+.card-subtitle p{
+  padding: 0 20%;
 }
 
 
@@ -1102,6 +1106,19 @@ table td::before {
   font-size: 0.8rem;
   margin-bottom: 20px;
   text-transform: uppercase;
+}
+
+.myForm {
+  margin: 20% auto;
+}
+
+.no-width{
+  width: unset;
+}
+
+.place{
+  top:50%;
+  right: 20%;
 }
 
 @media screen and (max-height: 450px) {
