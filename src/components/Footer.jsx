@@ -8,6 +8,7 @@ import tube from "../img/youtube.png"
 import line1 from "../img/mobile/01lines.svg"
 import line2 from "../img/mobile/02lines.svg"
 
+
 function Footer() {
   return (
     <footer id="footer">
